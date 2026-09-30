@@ -11,6 +11,6 @@ public class CiCdController {
 
     @GetMapping("/welcome")
     public ResponseEntity<String> welcome(){
-        return ResponseEntity.ok("welcome to ci_cd project");
+        return ResponseEntity.ok("welcome to ci_cd project and ci cd is working fine");
     }
 }
